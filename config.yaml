@@ -1,0 +1,32 @@
+learning_rate: 1e-3
+use_mup: no
+
+# Scale
+num_steps: 10000
+batch_size: 256
+
+# Regularization
+weight_decay: 1e-5
+dropout: 0.1
+gradient_norm: 1.0
+
+# Base model
+base_embed_dim: 256
+base_num_heads: 16
+
+# Delta model
+delta_embed_dim: 512
+delta_num_heads: 16
+
+# Target model
+num_layers: 2
+embed_dim: 128
+num_heads: 16
+
+# Other
+seed: 42
+log_every: 100
+block_size: 32
+param_range: [-3, 3]
+sample_range: [-5, 5]
+results_file: results.csv
