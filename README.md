@@ -9,7 +9,7 @@
 
 This project is aimed at exploring **zero-shot hyper-parameter transfer** with $\mu\text{P}$ [(Yang et al., 2022)](https://arxiv.org/abs/2203.03466). We will find out whether $\mu\text{P}$ is able to scale an autoregressive transformer for the *in-context linear regression* task presented in [Garg et al., 2022](https://arxiv.org/abs/2208.01066).
 
-> I created this project mostly because I wanted to understand $\mu\text{P}$ better and to have an example implementations for my work. I hope you find it helpful too. If you have questions or feedback please let me know 🧑‍💻
+> I created this project mostly because I wanted to understand $\mu\text{P}$ better and to have an example implementation for my work. I hope you find it helpful too. If you have questions or feedback please let me know 🧑‍💻
 
 ## In-context linear regression
 In [Garg et al., 2022](https://arxiv.org/abs/2208.01066), the task is to perform next-token prediction on a sequence $$s_{t,k} = x_0, y_0, \dots, x_k$$
